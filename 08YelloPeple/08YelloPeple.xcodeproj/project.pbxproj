@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		469CF42D1B8055BC00464092 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469CF42C1B8055BC00464092 /* Foundation.framework */; };
+		469CF42F1B8055BC00464092 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469CF42E1B8055BC00464092 /* CoreGraphics.framework */; };
+		469CF4311B8055BC00464092 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469CF4301B8055BC00464092 /* UIKit.framework */; };
+		469CF4371B8055BC00464092 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 469CF4351B8055BC00464092 /* InfoPlist.strings */; };
+		469CF4391B8055BC00464092 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 469CF4381B8055BC00464092 /* main.m */; };
+		469CF43D1B8055BD00464092 /* JJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 469CF43C1B8055BD00464092 /* JJAppDelegate.m */; };
+		469CF4401B8055BD00464092 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 469CF43E1B8055BD00464092 /* Main.storyboard */; };
+		469CF4431B8055BD00464092 /* JJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 469CF4421B8055BD00464092 /* JJViewController.m */; };
+		469CF4451B8055BD00464092 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 469CF4441B8055BD00464092 /* Images.xcassets */; };
+		469CF44C1B8055BD00464092 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469CF44B1B8055BD00464092 /* XCTest.framework */; };
+		469CF44D1B8055BD00464092 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469CF42C1B8055BC00464092 /* Foundation.framework */; };
+		469CF44E1B8055BD00464092 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469CF4301B8055BC00464092 /* UIKit.framework */; };
+		469CF4561B8055BD00464092 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 469CF4541B8055BD00464092 /* InfoPlist.strings */; };
+		469CF4581B8055BD00464092 /* _8YelloPepleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 469CF4571B8055BD00464092 /* _8YelloPepleTests.m */; };
+		469CF4631B8055D400464092 /* JJYelloPepleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 469CF4621B8055D400464092 /* JJYelloPepleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		469CF44F1B8055BD00464092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 469CF4211B8055BC00464092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 469CF4281B8055BC00464092;
+			remoteInfo = 08YelloPeple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		469CF4291B8055BC00464092 /* 08YelloPeple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 08YelloPeple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		469CF42C1B8055BC00464092 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		469CF42E1B8055BC00464092 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		469CF4301B8055BC00464092 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		469CF4341B8055BC00464092 /* 08YelloPeple-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "08YelloPeple-Info.plist"; sourceTree = "<group>"; };
+		469CF4361B8055BC00464092 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		469CF4381B8055BC00464092 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		469CF43A1B8055BC00464092 /* 08YelloPeple-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "08YelloPeple-Prefix.pch"; sourceTree = "<group>"; };
+		469CF43B1B8055BD00464092 /* JJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJAppDelegate.h; sourceTree = "<group>"; };
+		469CF43C1B8055BD00464092 /* JJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJAppDelegate.m; sourceTree = "<group>"; };
+		469CF43F1B8055BD00464092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		469CF4411B8055BD00464092 /* JJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJViewController.h; sourceTree = "<group>"; };
+		469CF4421B8055BD00464092 /* JJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJViewController.m; sourceTree = "<group>"; };
+		469CF4441B8055BD00464092 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		469CF44A1B8055BD00464092 /* 08YelloPepleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 08YelloPepleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		469CF44B1B8055BD00464092 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		469CF4531B8055BD00464092 /* 08YelloPepleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "08YelloPepleTests-Info.plist"; sourceTree = "<group>"; };
+		469CF4551B8055BD00464092 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		469CF4571B8055BD00464092 /* _8YelloPepleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _8YelloPepleTests.m; sourceTree = "<group>"; };
+		469CF4611B8055D400464092 /* JJYelloPepleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJYelloPepleView.h; sourceTree = "<group>"; };
+		469CF4621B8055D400464092 /* JJYelloPepleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJYelloPepleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		469CF4261B8055BC00464092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469CF42F1B8055BC00464092 /* CoreGraphics.framework in Frameworks */,
+				469CF4311B8055BC00464092 /* UIKit.framework in Frameworks */,
+				469CF42D1B8055BC00464092 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		469CF4471B8055BD00464092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469CF44C1B8055BD00464092 /* XCTest.framework in Frameworks */,
+				469CF44E1B8055BD00464092 /* UIKit.framework in Frameworks */,
+				469CF44D1B8055BD00464092 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		469CF4201B8055BC00464092 = {
+			isa = PBXGroup;
+			children = (
+				469CF4321B8055BC00464092 /* 08YelloPeple */,
+				469CF4511B8055BD00464092 /* 08YelloPepleTests */,
+				469CF42B1B8055BC00464092 /* Frameworks */,
+				469CF42A1B8055BC00464092 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		469CF42A1B8055BC00464092 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				469CF4291B8055BC00464092 /* 08YelloPeple.app */,
+				469CF44A1B8055BD00464092 /* 08YelloPepleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		469CF42B1B8055BC00464092 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				469CF42C1B8055BC00464092 /* Foundation.framework */,
+				469CF42E1B8055BC00464092 /* CoreGraphics.framework */,
+				469CF4301B8055BC00464092 /* UIKit.framework */,
+				469CF44B1B8055BD00464092 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		469CF4321B8055BC00464092 /* 08YelloPeple */ = {
+			isa = PBXGroup;
+			children = (
+				469CF43B1B8055BD00464092 /* JJAppDelegate.h */,
+				469CF43C1B8055BD00464092 /* JJAppDelegate.m */,
+				469CF43E1B8055BD00464092 /* Main.storyboard */,
+				469CF4411B8055BD00464092 /* JJViewController.h */,
+				469CF4421B8055BD00464092 /* JJViewController.m */,
+				469CF4441B8055BD00464092 /* Images.xcassets */,
+				469CF4331B8055BC00464092 /* Supporting Files */,
+				469CF4611B8055D400464092 /* JJYelloPepleView.h */,
+				469CF4621B8055D400464092 /* JJYelloPepleView.m */,
+			);
+			path = 08YelloPeple;
+			sourceTree = "<group>";
+		};
+		469CF4331B8055BC00464092 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				469CF4341B8055BC00464092 /* 08YelloPeple-Info.plist */,
+				469CF4351B8055BC00464092 /* InfoPlist.strings */,
+				469CF4381B8055BC00464092 /* main.m */,
+				469CF43A1B8055BC00464092 /* 08YelloPeple-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		469CF4511B8055BD00464092 /* 08YelloPepleTests */ = {
+			isa = PBXGroup;
+			children = (
+				469CF4571B8055BD00464092 /* _8YelloPepleTests.m */,
+				469CF4521B8055BD00464092 /* Supporting Files */,
+			);
+			path = 08YelloPepleTests;
+			sourceTree = "<group>";
+		};
+		469CF4521B8055BD00464092 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				469CF4531B8055BD00464092 /* 08YelloPepleTests-Info.plist */,
+				469CF4541B8055BD00464092 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		469CF4281B8055BC00464092 /* 08YelloPeple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 469CF45B1B8055BD00464092 /* Build configuration list for PBXNativeTarget "08YelloPeple" */;
+			buildPhases = (
+				469CF4251B8055BC00464092 /* Sources */,
+				469CF4261B8055BC00464092 /* Frameworks */,
+				469CF4271B8055BC00464092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 08YelloPeple;
+			productName = 08YelloPeple;
+			productReference = 469CF4291B8055BC00464092 /* 08YelloPeple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		469CF4491B8055BD00464092 /* 08YelloPepleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 469CF45E1B8055BD00464092 /* Build configuration list for PBXNativeTarget "08YelloPepleTests" */;
+			buildPhases = (
+				469CF4461B8055BD00464092 /* Sources */,
+				469CF4471B8055BD00464092 /* Frameworks */,
+				469CF4481B8055BD00464092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				469CF4501B8055BD00464092 /* PBXTargetDependency */,
+			);
+			name = 08YelloPepleTests;
+			productName = 08YelloPepleTests;
+			productReference = 469CF44A1B8055BD00464092 /* 08YelloPepleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		469CF4211B8055BC00464092 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JJ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = apex;
+				TargetAttributes = {
+					469CF4491B8055BD00464092 = {
+						TestTargetID = 469CF4281B8055BC00464092;
+					};
+				};
+			};
+			buildConfigurationList = 469CF4241B8055BC00464092 /* Build configuration list for PBXProject "08YelloPeple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 469CF4201B8055BC00464092;
+			productRefGroup = 469CF42A1B8055BC00464092 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				469CF4281B8055BC00464092 /* 08YelloPeple */,
+				469CF4491B8055BD00464092 /* 08YelloPepleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		469CF4271B8055BC00464092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469CF4451B8055BD00464092 /* Images.xcassets in Resources */,
+				469CF4371B8055BC00464092 /* InfoPlist.strings in Resources */,
+				469CF4401B8055BD00464092 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		469CF4481B8055BD00464092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469CF4561B8055BD00464092 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		469CF4251B8055BC00464092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469CF43D1B8055BD00464092 /* JJAppDelegate.m in Sources */,
+				469CF4431B8055BD00464092 /* JJViewController.m in Sources */,
+				469CF4391B8055BC00464092 /* main.m in Sources */,
+				469CF4631B8055D400464092 /* JJYelloPepleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		469CF4461B8055BD00464092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469CF4581B8055BD00464092 /* _8YelloPepleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		469CF4501B8055BD00464092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 469CF4281B8055BC00464092 /* 08YelloPeple */;
+			targetProxy = 469CF44F1B8055BD00464092 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		469CF4351B8055BC00464092 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				469CF4361B8055BC00464092 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		469CF43E1B8055BD00464092 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				469CF43F1B8055BD00464092 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		469CF4541B8055BD00464092 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				469CF4551B8055BD00464092 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		469CF4591B8055BD00464092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		469CF45A1B8055BD00464092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		469CF45C1B8055BD00464092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "08YelloPeple/08YelloPeple-Prefix.pch";
+				INFOPLIST_FILE = "08YelloPeple/08YelloPeple-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		469CF45D1B8055BD00464092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "08YelloPeple/08YelloPeple-Prefix.pch";
+				INFOPLIST_FILE = "08YelloPeple/08YelloPeple-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		469CF45F1B8055BD00464092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/08YelloPeple.app/08YelloPeple";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "08YelloPeple/08YelloPeple-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "08YelloPepleTests/08YelloPepleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		469CF4601B8055BD00464092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/08YelloPeple.app/08YelloPeple";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "08YelloPeple/08YelloPeple-Prefix.pch";
+				INFOPLIST_FILE = "08YelloPepleTests/08YelloPepleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		469CF4241B8055BC00464092 /* Build configuration list for PBXProject "08YelloPeple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469CF4591B8055BD00464092 /* Debug */,
+				469CF45A1B8055BD00464092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		469CF45B1B8055BD00464092 /* Build configuration list for PBXNativeTarget "08YelloPeple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469CF45C1B8055BD00464092 /* Debug */,
+				469CF45D1B8055BD00464092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		469CF45E1B8055BD00464092 /* Build configuration list for PBXNativeTarget "08YelloPepleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469CF45F1B8055BD00464092 /* Debug */,
+				469CF4601B8055BD00464092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 469CF4211B8055BC00464092 /* Project object */;
+}
